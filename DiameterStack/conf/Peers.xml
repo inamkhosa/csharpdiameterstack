@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Peers>
+  <Peer HostIdentity="aaa://10.13.121.196:6583;transport=tcp;protocol=diameter" StatusT="0" isDynamic="false" ExpirationTime="2000" IsTLSEnabled="false" IsLocal="false"/>
+  <!--<Peer HostIdentity="aaa://127.0.0.1:3868;transport=tcp;protocol=diameter" StatusT="0" isDynamic="false" ExpirationTime="2000" IsTLSEnabled="false" IsLocal="false"/>-->
+</Peers>

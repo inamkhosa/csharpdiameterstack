@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dictionary>
+
+  <Avp name="Auth-Application-Id" code="258" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Acct-Application-Id" code="259" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Auth-Session-State" code="277" type="Enumerated" isMandatory="false" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Auth-Information" code="30800" type="Grouped" isMandatory="false" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Auth-ResultCode" code="30801" type="Unsigned32" isMandatory="false" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Auth-userstate" code="30802" type="OctetString" isMandatory="false" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Auth-action" code="30803" type="OctetString" isMandatory="false" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Auth-VoiceID" code="30804" type="Unsigned32" isMandatory="false" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Auth-MessageID" code="30805" type="Unsigned32" isMandatory="false" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Auth-subservicekey" code="30806" type="OctetString" isMandatory="false" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Manager-Status" code="30807" type="OctetString" isMandatory="false" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="ActivePeriod" code="20733" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="graceperiod" code="20734"  type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="disableperiod" code="20735" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Active-Day" code="20367" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Account-Type" code="20372" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Account-Query-Method" code="20346" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="CC-Money" code="413" type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="CC-Service-Specific-Units" code="417 " type="Unsigned64" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Charge-ConfirmFlag" code="20347" type="Enumerated" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Currency-Code" code="425" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Exponent" code="429" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Card-Type" code="20365" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Card-Batch" code="20364" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Card-Number" code="20342" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Charge-Number" code="20326" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Charge-Money" code="20344" type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="CC-Request-Type" code="416" type="Enumerated" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="CC-Request-Number" code="415" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Calling-Party-Address" code="20336" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Called-Party-Address" code="20337" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Calling-Vlr-Number" code="20302" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Calling-CellID-Or-SAI" code="20303" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Destination-Host" code="293" type="DiamIdent" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Destination-Realm" code="283" type="DiamIdent" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Event-Timestamp" code="55" type="Time" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="ETopupSessionID" code="20740" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Firmware-Revision" code="267" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Host-IP-Address" code="257" type="Address" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="IN-Information" code="20300" type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Inband-Security-Id" code="299" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Money-Value" code="20328" type="Integer32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="MSC-Address" code="20322" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Origin-Host" code="264" type="DiamIdent" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Origin-Realm" code="296" type="DiamIdent" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Origin-State-Id" code="278" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Product-Name" code="269" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Result-Code" code="268" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Route-Record" code="282" type="DiamIdent" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Requested-Action" code="436" type="Enumerated" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Requested-Service-Unit" code="437 " type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Real-Called-Number" code="20327" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Recharge-Information" code="20341" type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Recharge-Method" code="20343" type="Enumerated" isMandatory="false" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Supported-Vendor-Id" code="265" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Service-Context-Id" code="461" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Subscription-Id" code="443" type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Subscription-Id-Type" code="450" type="Enumerated" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Subscription-Id-Data" code="444" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Service-Identifier" code="439" type="Unsigned32 " isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Service-Information" code="873" type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Session-Id" code="263" type="UTF8String " isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="SerialNo" code="20391" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Server-Name" code="3" type="UTF8String " isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Switch-To-Hot-Billing-Flag" code="20709" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="SSP-Time" code="20386" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Total-Cost-Flag" code="20375" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Used-Service-Unit" code="446" type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Unit-Value" code="445" type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="User-Name" code="1" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Value-Digits" code="447" type="Integer64" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Vendor-Id" code="266" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="false" VendorId="0"/>
+
+  <Avp name="Vendor-Specific-Application-Id" code="260" type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="CoSubId" code="20737" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Accumulated-Recharge-Amount" code="20785" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="RTBP-Information" code="20600" type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Service-Id"  code="20602" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="CategoryID"  code="20639" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="ContentID"  code="20640" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="TransctionID"  code="20643" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="need-cnfm" code="20606" type ="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="AccountInfo" code="20356" type ="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="AccountId" code="20357" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="AccountDate" code="20359" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="AdvSMSID" code="22402" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Re-Auth-Request-Type" code="285" type="Enumerated" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Notice-Information" code="20394" type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="MessageID" code="22201" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="MessageCount" code="20395" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="MessageCount1" code="20396" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="MessageCount2" code="20397" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="MessageCount3" code="20398" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="MessageCount4" code="20399" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="MessageCount5" code="20700" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="MessageCount6" code="20701" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="totalunpaidfee"  code="29006" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Total-Gift-Amount" code="20703" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="RechargeTaxAmount" code="30031" type="Integer64" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Result-Code" code="2001" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Adjustment-information" code="21500" type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="FeeChange-information" code="22116" type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Account-Balance-Change" code="20351" type="Integer64" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Account-Date-Change" code="20352" type="Integer32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Service-Reason" code="22122" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Agent-Name" code="22316" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Notify-Flag" code="22173" type="Integer32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Time-Zone" code="20324" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Access-Method" code="20340" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="New-Balance" code="22319" type="Integer64" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Internal-Serial-No" code="22318" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Account-Change-Info" code="20349" type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Account-Type-Desc" code="22320" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Current-Account-Balance" code="20350" type="Integer64" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Account-Begin-Date" code="22123" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="MeasureType" code="20353" type="Integer32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Validity-Period" code="22331" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Management-Status" code="22149" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Subscriber-State" code="30814" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+
+  <Avp name="Balance-information" code="21100" type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Call-Reference-Number" code="20321" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="External-Offer-Code" code="22144" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Offer-Order-Integration-Key" code="22160" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Offer-Id" code="22151" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Offer-Id-Range" code="22162" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="First-Active-Date" code="20771" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Balance" code="30841" type="Integer64" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Language-IVR" code="21194" type="Integer32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Language-SMS" code="21195" type="Integer32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Related-Type" code="22322" type="Unsigned32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Related-Object-ID" code="22323" type="OctetString" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Offer-Information" code="23000" type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Offer-Info" code="22150" type="Grouped" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Offer-Order-Key" code="22152" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Effective-Time" code="22153" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Expire-Time" code="22154" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Status" code="22155" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Cur-Cycle-Start-Time" code="22156" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Cur-Cycle-End-Time" code="22157" type="UTF8String" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Current-Cycle" code="22158" type="Integer32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+  <Avp name="Total-Cycle" code="22159" type="Integer32" isMandatory="true" vendorbit="false" isEncrypted="false" isVendorSpecific="true" VendorId="0"/>
+</dictionary>

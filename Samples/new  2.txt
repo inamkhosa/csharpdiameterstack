@@ -1,0 +1,13 @@
+SMP-97 System Agent (SNMP integration)
+SMP-99 System Performance Dashboard (System Faults)
+SMP-99 Disk Performance
+SMP-99 Network Performance
+SMP-26 Centralized Caching Server (session store) 
+SMP-41 Core Licensing Support/APIs/Framework at SDP Layer to enforce licensing at services level for the operators and License Enforcements 
+SMP-16 AMPS admission control & DOS attack prevention
+SMP-14 Binary Compilation or Storage of Scripts
+SMP-71 Staging, Debugging & Request Forking Support for Platform developers 
+SMP-43 AMPS + SDP + SMP Source Code Structure Explanation and Training
+SMP-27 Secure C/C++ Coding Standards Applications and Verification by analyzing the code as per CERT Standards and CERT Certified Tools. 
+Diameter Stack C API for AMPS application developers
+SMP GUI Enhancements 
